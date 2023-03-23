@@ -26478,6 +26478,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.plugins_.Spritefont2.prototype.acts.SetVisible,
 	cr.plugins_.TextBoxAddon.prototype.acts.SetVisible,
+	cr.plugins_.TextBox.prototype.acts.SetPos,
 	cr.behaviors.Platform.prototype.acts.SetEnabled,
 	cr.plugins_.Sprite.prototype.acts.SetBoolInstanceVar,
 	cr.plugins_.Sprite.prototype.acts.SetAnim,
